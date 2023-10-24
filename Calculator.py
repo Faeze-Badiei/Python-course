@@ -2,8 +2,12 @@
 import math
 
 print("welcom!")
-n=int(input("Now enter a number:"))
-s=input("And choose one of (+, -, *, /, sin, cos, tan, cot, factorial, sqrt):")
+while True:
+    s=input("And choose one of (+, -, *, /, sin, cos, tan, cot, factorial, sqrt, exit):")
+    if s=="exit":
+        break
+    
+    n=int(input("Now enter a number:"))
 
 if s=="sin":
     r=(math.sin(math.radians(n)))
