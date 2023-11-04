@@ -1,6 +1,6 @@
 import random
 
-s=int(input("enter number between 1 to 500 that you want in your list: "))
+s=int(input("enter number between 1 to 500 that you want to be in your list: "))
 s_list=[]
 
 for i in range(s):
